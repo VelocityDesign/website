@@ -12,7 +12,6 @@ draft: false
 hidemeta: false
 comments: false
 description: "My first post on my new blog!"
-canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false

@@ -113,6 +113,8 @@ menu:
       name: Search
       url: /search/
       weight: 20
+permalinks:
+  posts: /:year/:month/:title/
 outputs:
     home:
         - HTML
