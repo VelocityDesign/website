@@ -15,7 +15,7 @@ cover:
 tags: ["default"]
 author: "Judah Brown"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 
 ##########################################

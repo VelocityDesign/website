@@ -15,7 +15,7 @@ cover:
 tags: ["default"]
 author: "Judah Brown"
 # author: ["Me", "You"] # multiple authors
-showToc: true
+showToc: false
 TocOpen: false
 
 ##########################################
@@ -33,5 +33,4 @@ comments: false
 description: "Learn more about me!"
 ---
 
-# About Me
 Hi, I'm Judah. I'm a nerd (in general) who loves making music and programing. I also use Linux and am a strong supporter of FOSS. My current linux distrobution is Fedora Silverblue.
