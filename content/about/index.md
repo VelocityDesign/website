@@ -1,9 +1,9 @@
 ---
-title: "My 1st post"
+title: "About Me"
 date: 2020-09-15T11:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["about me"]
 author: "Judah Brown"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -11,13 +11,13 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+description: "Learn more about me!"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: trues
+searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -32,3 +32,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+# About Me
+Hi, I'm Judah. I'm a nerd (in general) who loves making music and programing. I also use Linux and am a strong supporter of FOSS. My current linux distrobution is Fedora Silverblue.
