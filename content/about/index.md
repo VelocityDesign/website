@@ -1,36 +1,36 @@
 ---
 title: "About Me"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["about me"]
-author: "Judah Brown"
-# author: ["Me", "You"] # multiple authors
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: false
-description: "Learn more about me!"
-# canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+date: 2021-12-05T20:23:35-06:00
+draft: true
 editPost:
     URL: "https://github.com/VelocityDesign/website/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+cover:
+    image: "/default-thumb.png" # image path/url
+    alt: "Banner Image" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+tags: ["default"]
+author: "Judah Brown"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+
+##########################################
+################IMPORTANT#################
+##########################################
+# Change draft to false for publishing!
+draft: false
+# Change draft to false for publishing!
+##########################################
+##########################################
+##########################################
+
+hidemeta: false
+comments: false
+description: "Learn more about me!"
 ---
 
 # About Me
