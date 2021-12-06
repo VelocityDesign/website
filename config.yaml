@@ -1,7 +1,7 @@
 baseURL: "https://judahbrown.ml/"
 title: "The Launchpad"
 paginate: 5
-theme: PaperMod
+theme: PaperMod-master
 
 enableRobotsTXT: true
 buildDrafts: false
