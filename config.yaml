@@ -2,7 +2,7 @@ baseURL: "https://judahbrown.ml/"
 title: "The Launchpad"
 paginate: 5
 theme: PaperMod-master
-copyright: "### © 2021 [The Launchpad](https://judahbrown.ml/). \n This work is licensed under the [CC BY-NC-SA License](http://creativecommons.org/licenses/by-nc-sa/4.0/)."
+copyright: "### © 2021 [The Launchpad](/). \n This work is licensed under the [CC BY-NC-SA License](http://creativecommons.org/licenses/by-nc-sa/4.0/)."
 
 enableRobotsTXT: true
 buildDrafts: false
