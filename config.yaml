@@ -1,125 +1,227 @@
-baseURL: "https://judahbrown.ml/"
-title: "The Launchpad"
+baseurl: https://judahbrown.ml
+languageCode: en-us
+theme: hugo-theme-stack
 paginate: 5
-theme: PaperMod-master
-copyright: "### © 2021 [The Launchpad](/). \n This work is licensed under the [CC BY-NC-SA License](http://creativecommons.org/licenses/by-nc-sa/4.0/)."
+title: Judah Brown
 
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
+DefaultContentLanguage: en
 
-relativeURLs: true
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: false
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "The Launchpad"
-  description: "The Launchpad - The personal blog and portfolio of a {computer,math,science} nerd."
-  keywords: [Blog, Portfolio, Tech, Music, Linux, FOSS]
-  author: "Judah Brown"
-  # author: ["Me", "You"] # multiple authors
-  images: ["/default-thumb.png"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    favicon:
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
+    footer:
+        since: 2022
+        customText: All content licensed under the CC-BY-SA 4.0 License.
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "apple-touch-icon.png"
-    safari_pinned_tab: ""
+    dateFormat:
+        published: Jan 02, 2006
+        lastUpdated: Jan 02, 2006 15:04 MST
 
-  label:
-    text: "The Launchpad"
-    icon: /logo.svg
-    iconHeight: 40
+    sidebar:
+#        emoji: 🍥
+        subtitle: Teen, Music Producer, Graphics Designer, Python & Web Developer, Night owl.
+        avatar:
+            enabled: true
+            local: false
+            src: https://avatars.githubusercontent.com/u/24457862
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+    article:
+        math: false
+        toc: true
+        readingTime: true
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
 
-  # home-info mode
-  homeInfoParams:
-    Title: "The Launchpad"
-    Content: "The Launchpad - The personal blog and portfolio of a {computer,math,science} nerd."
+    comments:
+        enabled: false
+        provider: disqus
 
-  socialIcons:
-    - name: dribbble
-      url: "https://dribbble.com/VelocityDev"
-    - name: stackoverflow
-      url: "https://stackoverflow.com/users/13603048/velocity"
-    - name: github
-      url: "https://github.com/velocitydesign"
-    - name: soundcloud
-      url: "https://soundcloud.com/velocitydesign"
-    - name: youtube
-      url: "https://www.youtube.com/channel/UCeb-opeILs104vJlzU1AWdw"
+        disqusjs:
+            shortname:
+            apiUrl:
+            apiKey:
+            admin:
+            adminLabel:
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+        utterances:
+            repo:
+            issueTerm: pathname
+            label:
 
-  editPost:
-    URL: "https://github.com/velocitydesign/website/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+        remark42:
+            host:
+            site:
+            locale:
 
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+        vssue:
+            platform:
+            owner:
+            repo:
+            clientId:
+            clientSecret:
+            autoCreateIssue: false
+
+        # Waline client configuration see: https://waline.js.org/en/reference/client.html
+        waline:
+            serverURL:
+            lang:
+            visitor:
+            avatar:
+            emoji:
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+            requiredMeta:
+                - name
+                - email
+                - url
+            placeholder:
+            locale:
+                admin: Admin
+
+        twikoo:
+            envId:
+            region:
+            path:
+            lang:
+
+        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+        cactus:
+            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+            serverName: "cactus.chat"
+            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+            
+        giscus:
+            repo:
+            repoID:
+            category:
+            categoryID:
+            mapping:
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
+
+        gitalk:
+            owner: 
+            admin:  
+            repo: 
+            clientID: 
+            clientSecret: 
+        
+        cusdis:
+            host: 
+            id: 
+    widgets:
+        enabled:
+            - search
+            - tag-cloud
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 10
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 30
-permalinks:
-  posts: /:year/:month/:title/
-outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: true
+              icon: home
+    
+    social:
+        - identifier: github
+          name: GitHub
+          url: https://github.com/VelocityDesign/
+          params:
+            icon: brand-github
+      #  - identifier: stackoverflow
+      #    name: StackOverflow
+      #    url: https://stackoverflow.com/users/13603048/velocity/
+      #    params:
+      #      icon: brand-stackoverflow
+        - identifier: soundcloud
+          name: SoundCloud
+          url: https://soundcloud.com/VelocityDesign/
+          params:
+            icon: brand-soundcloud
+        - identifier: dribbble
+          name: Dribbble
+          url:  "https://dribbble.com/VelocityDev"
+          params:
+           icon: brand-dribbble
+        - identifier: youtube
+          name: Youtube
+          url: "https://www.youtube.com/channel/UCeb-opeILs104vJlzU1AWdw"
+          params:
+            icon: brand-youtube
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: false
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
