@@ -33,7 +33,7 @@ params:
 
     sidebar:
 #        emoji: 🍥
-#        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: Teen, Music Producer, Graphics Designer, Python & Web Developer, Night owl.
         avatar:
             enabled: true
             local: false
@@ -128,7 +128,6 @@ params:
     widgets:
         enabled:
             - search
-            - archives
             - tag-cloud
 
         archives:
