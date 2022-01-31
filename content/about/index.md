@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 date: 2021-12-05T20:23:35-06:00
 draft: true
 editPost:
@@ -12,7 +12,7 @@ cover:
     caption: "" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
-tags: ["default"]
+tags: []
 author: "Judah Brown"
 # author: ["Me", "You"] # multiple authors
 showToc: false
@@ -31,5 +31,10 @@ draft: false
 hidemeta: false
 comments: false
 description: "Learn more about me!"
+menu:
+    main: 
+        weight: -90
+        params:
+            icon: user
 ---
 Hi, I'm Judah. I'm a nerd (in general) who loves making music and programing. I also use Linux and am a strong supporter of FOSS. My current linux distribution is Fedora Silverblue.

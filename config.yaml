@@ -2,7 +2,7 @@ baseurl: https://judahbrown.ml
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: The Launchpad
+title: Judah Brown
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
@@ -184,13 +184,26 @@ menu:
           url: https://github.com/VelocityDesign/
           params:
             icon: brand-github
-            
+      #  - identifier: stackoverflow
+      #    name: StackOverflow
+      #    url: https://stackoverflow.com/users/13603048/velocity/
+      #    params:
+      #      icon: brand-stackoverflow
         - identifier: soundcloud
           name: SoundCloud
           url: https://soundcloud.com/VelocityDesign/
           params:
             icon: brand-soundcloud
-
+        - identifier: dribbble
+          name: Dribbble
+          url:  "https://dribbble.com/VelocityDev"
+          params:
+           icon: brand-dribbble
+        - identifier: youtube
+          name: Youtube
+          url: "https://www.youtube.com/channel/UCeb-opeILs104vJlzU1AWdw"
+          params:
+            icon: brand-youtube
 related:
     includeNewer: true
     threshold: 60
