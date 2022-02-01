@@ -129,6 +129,7 @@ params:
         enabled:
             - search
             - tag-cloud
+            - archive
 
         archives:
             limit: 5
