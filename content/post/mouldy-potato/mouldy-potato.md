@@ -29,7 +29,7 @@ draft: true
 ##########################################
 
 hidemeta: false
-comments: false
+comments: true
 description: "All because of a mouldy potato and an old, malicious mother..."
 ---
 # The Background

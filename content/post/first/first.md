@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: "My first post on my new blog!"
 disableHLJS: true # to disable highlightjs
 disableShare: false

@@ -29,7 +29,7 @@ draft: true
 ##########################################
 
 hidemeta: false
-comments: false
+comments: true
 description: "Yet another post on my portfolio & blog!"
 ---
 
