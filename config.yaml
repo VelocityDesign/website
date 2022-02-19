@@ -201,7 +201,7 @@ menu:
            icon: brand-dribbble
         - identifier: youtube
           name: Youtube
-          url: "https://www.youtube.com/channel/UCeb-opeILs104vJlzU1AWdw"
+          url: "https://www.youtube.com/channel/UCfZSeycLtZ0BmD1TqK183lw"
           params:
             icon: brand-youtube
 related:
