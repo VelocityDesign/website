@@ -1,7 +1,6 @@
 ---
 title: "All Because of a Mouldy Potato"
 date: 2022-01-31T14:53:23-06:00
-draft: true
 editPost:
     URL: "https://github.com/VelocityDesign/website/blob/main/content"
     Text: "Suggest Changes" # edit text
@@ -15,7 +14,7 @@ cover:
 tags: ["Short Story", "Fiction", "Random", "Creative Writing"]
 author: "Judah Brown"
 # author: ["Me", "You"] # multiple authors
-showToc: false
+showToc: true
 TocOpen: false
 
 ##########################################
