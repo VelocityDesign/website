@@ -1,7 +1,16 @@
 <script lang="ts">
-    import Cover from "../components/cover.svelte"
-    export let pageTitle: string;
+	import Cover from '../components/cover.svelte';
+	import Bar from '../components/bar.svelte';
+	import Footer from '../components/footer.svelte';
+	export let pageTitle: string;
 </script>
+
 <slot name="cover">
-    <Cover title="{pageTitle}" />
+	<Cover title={pageTitle} />
 </slot>
+
+<Bar />
+
+<slot name="content" />
+
+<Footer />
