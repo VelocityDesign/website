@@ -5,12 +5,14 @@
 	export let pageTitle: string;
 </script>
 
-<slot name="cover">
-	<Cover title={pageTitle} />
-</slot>
-
 <Bar />
 
-<slot name="content" />
+<div id = "content">
+    <slot name="cover">
+        <Cover title={pageTitle} />
+    </slot>
 
-<Footer />
+    <slot name="content" />
+
+    <Footer />
+</div>
